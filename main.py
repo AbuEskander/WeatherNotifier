@@ -1,5 +1,6 @@
 #Todo : Weather Notifier using Python
 #Author : Basil Ismail (AbuEskander)
+#!/usr/bin/python3
 
 from dotenv import load_dotenv
 import  geocoder
@@ -18,7 +19,6 @@ def tele_message(message:str):
         TELE_KEY = os.getenv("TELE_KEY")
         url = f'https://api.telegram.org/bot{TELE_KEY}/sendMEssage?chat_id={os.getenv("CHAT_ID")}&text={message}'
         res = requests.post(url)
-        print(res.json())
 
 def main():        
         lat, long = get_current_location()
