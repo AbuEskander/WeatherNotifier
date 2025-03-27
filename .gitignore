@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+myenv/
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# API Keys and Secrets
+*.env
+config.ini
+credentials.json
+secrets.yaml
+.env.local
+.env.development
+.env.production
+
+# Logs
+logs/
+*.log
+
+# Local development
+.coverage
+htmlcov/
+.pytest_cache/
+coverage.xml
+*.cover
+
+# Database
+*.db
+*.sqlite3
+*.json
