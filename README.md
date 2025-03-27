@@ -15,6 +15,6 @@ My aim is to understand how to work with APIS in python and how to work with tel
 - Used Task Schedualer on PowerShell terminal to setup an automated task that runs the task from my WSL environment.
 
 ### Sample Output
-![Google Photo Fetched Image](images/Sample.png)
+![Google Photo Fetched Image](Sample.jpg)
 ### Overall
 a pretty simple and fun projects That actually excites for more :P
